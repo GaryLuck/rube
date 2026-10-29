@@ -21,6 +21,11 @@ Other scripts:
 | `npm run typecheck` | TypeScript only |
 | `npm run samples:check` | Run each sample 30 times with tiny random nudges and report how often it succeeds |
 
+## Deploying
+
+- **GitHub Pages**: `.github/workflows/deploy.yml` tests, builds and publishes on every push to `main` (Pages source must be set to *GitHub Actions*).
+- **Netlify**: connect the repository; `netlify.toml` sets the build command, publish directory and Node version.
+
 ## Using the editor
 
 - **Place**: click a part in the palette, then click the board (or drag the part onto the board). Hold <kbd>Shift</kbd> to place several.
